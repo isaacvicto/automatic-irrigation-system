@@ -29,9 +29,9 @@ void main() {
      p2=0x00;
      p1=255;
      lcdinit();
-     WR = 1;
-     INTR = 1;
-     RD = 1;
+     WR=1;
+     INTR=1;
+     RD=1;
      
      while(a[j]!='\0')
      {
